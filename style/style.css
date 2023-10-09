@@ -31,6 +31,7 @@ header {
     padding: 25px;
     font-size: 35px;
     font-weight: 600;
+    text-align: center;
     color: var(--text-color-change);
 }
 span::selection {
@@ -42,7 +43,7 @@ span::selection {
     }
     span {
         border: 5px solid var(--text-color-change);
-        padding: 2px;
+        padding: 3px;
         border-radius: 50px;
     }
 }
@@ -59,6 +60,7 @@ main {
     font-weight: 600;
     margin-bottom: 30px;
     font-size: 20px;
+    display: none;
 }
 section {
     width: 1200px;
@@ -102,6 +104,10 @@ input {
     background: var(--text-color-hover);
 }
 @media (max-width: 821px) {
+
+#addYourLists {
+    display: block;
+}
 
 form {
     width: 40%;
